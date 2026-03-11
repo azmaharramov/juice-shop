@@ -7,7 +7,7 @@ pipeline {
         APP_DIR     = "/opt/juice-shop"
         REPO_URL    = "https://github.com/azmaharramov/juice-shop.git"
         BRANCH      = "main"
-        SSH_KEY     = "home/azar/.ssh/id_ed25519"
+        SSH_KEY     = "/home/azar/.ssh/id_ed25519"
     }
 
     triggers {
