@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        APP_SERVER  = "129.212.170.142"
-        APP_USER    = "root"
+        APP_SERVER  = "10.114.0.3"
+        APP_USER    = "jenkins-deploy"
         APP_DIR     = "/opt/juice-shop"
         REPO_URL    = "https://github.com/azmaharramov/juice-shop.git"
         BRANCH      = "main"
